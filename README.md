@@ -2,7 +2,7 @@
 
 **Student Name:** Vanessa noelyn kalaki 
 **Student ID:** 27540
----
+
 
 ## Overview of Tasks
 
@@ -23,27 +23,30 @@ Configured Oracle Enterprise Manager (EM Express) and verified both tasks throug
 ## Screenshots
 
 ### 1. Task 1: PDB Creation
-![PDB Creation](screenshots/screenshot1.png) 
+![PDB Creation](https://github.com/noelynevanessa7-beep/PLSQL-PDB-Assignment/blob/main/screenshots/screenshot%201.PNG?raw=true)
+
 *This screenshot shows the successful creation of the main PDB `PLSQL_CLASS2025DB`. The commands executed include creating the PDB with the admin user, opening it, and verifying its status using SHOW PDBS.*
 
 ---
 
 ### 2. Task 2: Temporary PDB Creation and Deletion
-![PDB Deletion](screenshots/Screenshot2.pngandScreenshot3.png)
+![Temporary PDB Creation](https://github.com/noelynevanessa7-beep/PLSQL-PDB-Assignment/blob/main/screenshots/screenshot%202.PNG?raw=true)
 
-*This screenshot demonstrates the creation of `va_to_delete_pdb_27540` and its subsequent deletion. The output shows the PDB being closed, dropped with datafiles, and verification that it no longer appears in the PDB list.*
+![Temporary PDB Deletion](https://github.com/noelynevanessa7-beep/PLSQL-PDB-Assignment/blob/main/screenshots/screenshot%203.PNG?raw=true)
+
+*These screenshots demonstrate the creation of `va_to_delete_pdb_27540` and its subsequent deletion. The output shows the PDB being closed, dropped with datafiles, and verification that it no longer appears in the PDB list.*
 
 ---
 
 ### 3. Task 3: Oracle Enterprise Manager - Dashboard
-![OEM Dashboard](screenshots/Screenshot4.png)
+![OEM Dashboard](https://github.com/noelynevanessa7-beep/PLSQL-PDB-Assignment/blob/main/screenshots/screenshot%204.PNG?raw=true)
 
-*This screenshot shows the Oracle Enterprise Manager Express dashboard accessed via web browser at https://localhost:5500/em. The username (SYS) is clearly visible, confirming successful login and configuration.*
+*This screenshot shows the Oracle Enterprise Manager Express dashboard accessed via web browser at https://localhost:8443/em. The username (SYS) is clearly visible, confirming successful login and configuration.*
 
 ---
 
 ### 4. Task 3: PDB Verification in OEM
-![PDB List in OEM](screenshots/Screenshoot5.png)
+![PDB List in OEM](https://github.com/noelynevanessa7-beep/PLSQL-PDB-Assignment/blob/main/screenshots/screenshot%205.PNG?raw=true)
 
 *This screenshot shows the Pluggable Databases section in OEM, displaying `PLSQL_CLASS2025DB` in OPEN status. Notably, the deleted PDB `va_to_delete_pdb_27540` does not appear, confirming successful deletion.
 
